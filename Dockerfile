@@ -28,5 +28,5 @@ RUN cd /tmp && \
     tar xvzf redis-stable.tar.gz && \
     cd redis-stable && \
     make && \
-    cp src/redis-cli /usr/local/bin/ && \
+    make install && \
     chmod 755 /usr/local/bin/redis-cli
