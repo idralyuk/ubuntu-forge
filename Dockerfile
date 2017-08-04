@@ -28,4 +28,5 @@ RUN cd /tmp && \
     tar xvzf redis-stable.tar.gz && \
     cd redis-stable && \
     make && \
-    make install
+    make install && \
+    make clean
